@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: Formula;
+    src: url("../fonts/FORMULA1-REGULAR.OTF") format("opentype");
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    font-family: "Exo 2";
+    margin: 0;
+    color: #3b3b41;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+*::selection{
+  background-color: rgba(118, 157, 164, 0.9);
+}
+.kir{
+    font-family: "Exo 2";
+}
+  .lat{
+    font-family: "Formula";
+  }
+  #mini{
+    letter-spacing: 2px;
+  }
+header{
+    background-color: rgb(240, 240, 240);
+    color: #3b3b41;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#crsname{
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+p{
+  text-align: justify;
+}
+.link{
+    color: #3b3b41;
+    transition: .5s;
+}
+.link:hover{
+    color: hsl(240, 5%, 70%);
+}
+.grid{
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+.course{
+  grid-column: 2/3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 120px 0;
+}
+.imagecont{
+  width: 50%;
+}
+.info{
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.need{
+  display: flex;
+}
+.age{
+  width: 50%;
+}
+.age > p > img, .age > p > b{
+  vertical-align: middle;
+}
+.skills > ul{
+  padding: 0;
+  list-style: none;
+  line-height: 1.7;
+}
+#icon{
+  margin-right: 10px;
+}
+.about{
+  letter-spacing: 2px;
+  line-height: 1.4;
+}
+.where{
+  grid-column: 2/3;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.clubs{
+  width: 50%;
+}
+.clubs > ul{
+  padding: 0;
+  list-style: none;
+  line-height: 1.5;
+  font-size: 18px;
+}
+#club{
+  color: #3b3b41;
+  transition: .5s;
+}
+#club:hover{
+  color: hsl(240, 5%, 60%);
+}
+.gallery{
+  width: 45%;
+}
+.small{
+  display: flex;
+  justify-content: space-between;
+}
+.picture{
+  width: 49.7%;
+}
+.picture > img{
+  width: 100%;  
+}
+.big > img{
+  width: 100%;
+}
+.footnav{
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(160, 160, 160);
+  padding: 100px;
+}
+#logo{
+  width: 100px;
+}
+.pastmenu > ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.pastmenu:last-child > ul{
+  justify-content: right;
+}
+#pastpoint{
+  color: rgb(160, 160, 160);
+  margin-left: 10px;
+  transition: .5s;
+}
+#pastpoint:first-child{
+  margin-left: 0;
+}
+#pastpoint:hover{
+  color: rgb(221, 221, 221);
+}
+#links{
+  filter: invert(30%);
+  transition: .5s;
+  margin-left: 30px;
+}
+#links:first-child{
+  margin-left: 0;
+}
+#links:hover{
+  filter: invert(50%);
+}
+#links > a > img{
+  width: 20px;
+}
+.copyright{
+  color: rgb(199, 199, 199);
+  background-color: #000;
+  text-align: center;
+  padding: 10px;
+}
+#weight{
+  font-weight: normal;
+  font-family: "Formula";
+}
+@media(max-width:766px){
+  .imagecont{
+    width: 100%;
+  }
+  .info{
+    width: 100%;
+  }
+  .where{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .clubs{
+    text-align: center;
+    width: 100%;
+  }
+  .gallery{
+    width: 100%;
+  }
+  #club{
+    font-size: 15px;
+  }
+  .footnav{
+    padding: 75px;
+    font-size: 10px;
+  }
+}
+@media(max-width:480px){
+  .footnav{
+    padding: 50px;
+    font-size: 14px;
+    flex-direction: column;
+  }
+  .imgcontainer,.pastmenu{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+  }
+  #pastpoint{
+    text-align: center;
+    align-self: center;
+  }
+  .pastmenu > ul, .pastmenu:last-child > ul{
+    justify-content: space-between;
+  }
+  .grid{
+    grid-template-columns: 10% 80% 10%;
+  }
+}
+@media(max-width:400px){
+  .logo{
+    align-self: flex-start;
+    margin-top: 35px;
+  }
+  .grid{
+    grid-template-columns: 10% 80% 10%;
+  }
+}

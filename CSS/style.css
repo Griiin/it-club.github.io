@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@font-face {
+    font-family: Formula;
+    src: url("../fonts/FORMULA1-REGULAR.OTF") format("opentype");
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    font-family: "Formula", sans-serif!important;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+*::selection{
+  background-color: rgba(118, 157, 164, 0.9);
+}
+.kir{
+  font-family: "Exo 2";
+}
+.lat{
+  font-family: "Formula";
+}
+header{
+  background-image: url(../images/marat.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  margin-bottom: 6em;
+  padding-block: 10vw;
+}
+
+  .logoflex{
+    display: flex;
+    grid-column: 2/3;
+
+  }
+  .logo{
+    align-self: center;
+    color: white;
+    letter-spacing: 8px;
+  }
+  #itclub{
+    font-size: 10em;
+    margin: 0;
+  }
+  .logo > p{
+    font-family: "Exo 2";
+    font-size: 2.1875em;
+    font-weight: 600;
+  }
+  #afterlogo{
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 0;
+  }
+  #logo{
+    align-self: center;
+
+  }
+  .button, #anotherbut{
+    padding: 1.25em 4.6875em;
+    font-family: "Exo 2";
+    color: white;
+    background-color: #51777c;
+    border: 0;
+    border-radius: 0.3125em;
+    font-size: 1em;
+    letter-spacing: 2px;
+    transition: .5s;
+  }
+  .button:hover{
+    background-color: hsl(187, 21%, 50%);
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    margin-bottom: 5em;
+  }
+  .cardsabout{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-column: 2/3;
+  }
+  .card, .card2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(243, 243, 243);
+    width: 31%;
+    padding: 3.125em 1.25em;
+    margin-bottom: 4.375em;
+    border-radius: 0.625em;
+    transition: .5s;
+  }
+  .card:hover{
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.13);
+  }
+  .card2{
+    color: #3b3b41;
+    background-color: rgba(0, 0, 0, 0);
+    letter-spacing: 2px;
+  }
+  .small{
+    display: none;
+  }
+  .icon{
+    width: 20%;
+  }
+  #image{
+    width: 100%;
+  }
+  #about{
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+  }
+  #abouttxt{
+    line-height: 2;
+  }
+  #welcome{
+    font-weight: 300;
+  }
+  #club{
+    font-size: 2.5em;
+    margin: 0;
+  }
+.technocampus{
+  background-image: url(../images/gallery-item-10.jpg);
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-position: center;
+  height: 31.25em;
+  margin-bottom: 5em;
+  color: white;
+  text-align: center;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.h1Lweight{
+  font-weight: 300;
+}
+.summer{
+  font-size: 3.125em;
+  line-height: 1;
+  margin-bottom: 3vh;
+}
+#aboutus{
+  text-align: center;
+  font-weight: normal;
+  color: #3b3b41;
+}
+#name, #ways, #clubs{
+  text-align: center;
+  color: #3b3b41;
+  font-size: 3em;
+  line-height: 0.5;
+  margin-bottom: 1.042em;
+}
+.aboutclub{
+  grid-column: 2/3;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 3.125em;
+}
+#textabout{
+  width: 49%;
+  text-align: justify;
+  color: #3b3b41;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  margin: 0;
+}
+.videocontainer{
+  width: 49%;
+}
+.but2{
+  grid-column: 2/3;
+  text-align: center;
+}
+#anotherbut{
+  background-color: black;
+  border: 0.1875em solid black;
+}
+#anotherbut:hover{
+  background-color: #fff;
+  color: #000;
+}
+#intensive{
+  background-image: url(../images/fILY8T77-Ok.jpg);
+}
+#ways{
+  margin: 0;
+  line-height: 1;
+}
+#choose{
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+.where{
+  grid-column: 2/3;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.course{
+  width: 30%;
+  margin-bottom: 20px;
+}
+#crsname{
+  text-align: center;
+  color: #3b3b41;
+}
+.gallery{
+  grid-column: 2/3;
+  white-space: nowrap;
+  overflow-x: scroll;
+  margin-top: 50px;
+}
+.gallery > img{
+  width: 30%;
+  margin-right: 10px;
+}
+.gallery > img:nth-child(13){
+  margin:0
+}
+.footnav{
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(160, 160, 160);
+  padding: 100px;
+}
+#logo{
+  width: 100px;
+}
+.pastmenu > ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.pastmenu:last-child > ul{
+  justify-content: right;
+}
+#pastpoint{
+  color: rgb(160, 160, 160);
+  margin-left: 10px;
+  transition: .5s;
+  align-self: center;
+}
+#pastpoint:first-child{
+  margin-left: 0;
+}
+#pastpoint:hover{
+  color: rgb(221, 221, 221);
+}
+#links{
+  filter: invert(30%);
+  transition: .5s;
+  margin-left: 30px;
+}
+#links:first-child{
+  margin-left: 0;
+}
+#links:hover{
+  filter: invert(50%);
+}
+#links > a > img{
+  width: 20px;
+}
+.copyright{
+  color: rgb(199, 199, 199);
+  background-color: #000;
+  text-align: center;
+  padding: 10px;
+}
+#weight{
+  font-weight: normal;
+  font-family: "Formula";
+}
+.imgcontainer,.pastmenu{
+  width: 33.3%;
+}
+.clubs{
+  grid-column: 2/3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.club{
+  width: 25%;
+}
+
+@media(max-width:800px){
+  header{
+    height: 420px;
+  }
+  .logo > p{
+    font-size: 20px;
+    margin: 0;
+  }
+  #itclub{
+    font-size: 92px;
+    margin-top: 40px;
+  }
+  .button,#anotherbut{
+    padding: 15px 50px;
+  }
+  .card,.card2{
+    width: 20em;
+  }
+  .small{
+    display: block;
+  }
+  .big{
+    display: none;
+  }
+  .cardsabout{
+    justify-content: space-around;
+  }
+  .aboutclub, .where{
+    justify-content: space-around;
+  }
+  #textabout{
+    width: 100%;
+    margin-bottom: 0.625em;
+  }
+  .videocontainer{
+    width: 100%;
+  }
+  .technocampus{
+    height: 225px;
+  }
+  .h1Lweight{
+    font-size: 18px;
+  }
+  .summer{
+    font-size: 28.5px;
+  }
+  .where{
+    justify-content: space-around;
+  }
+  .course{
+    width:20em;
+  }
+  .gallery > img{
+    width: 75%;
+  }
+  .club{
+    width: 50%
+  }
+  .footnav{
+    padding: 75px;
+    font-size: 10px;
+  }
+}
+@media(max-width:480px){
+  .grid{
+    grid-template-columns: 10% 80% 10%;
+  }
+  .card,.card2,.course{
+    width: 100%;
+  }
+  header{
+    height: 270px;
+  }
+  .logo > p{
+    font-size: 10px;
+    margin: 0;
+  }
+  #itclub{
+    font-size: 46px;
+    margin-top: 20px;
+  }
+  #afterlogo{
+    font-size: 10px;
+  }
+  .button,#anotherbut{
+    font-size: 10px;
+    padding: 8px 30px;
+    border-radius: 3px;
+  }
+  .cardsabout{
+    justify-content: space-around;
+  }
+  .aboutclub, .where{
+    justify-content: space-around;
+  }
+  #welcome{
+    font-size: 20px;
+  }
+  #club{
+    font-size: 30px;
+  }
+  #textabout{
+    width: 100%;
+    margin-bottom: 0.625em;
+  }
+  .videocontainer{
+    width: 100%;
+  }
+  .technocampus{
+    height: 150px;
+  }
+  .h1Lweight{
+    font-size: 12px;
+  }
+  .summer{
+    font-size: 16px;
+    line-height: 1.1;
+  }
+  #name,#ways,#clubs{
+    font-size: 32px;
+  }
+  #choose{
+    font-size: 13px;
+  }
+  .where{
+    justify-content: space-around;
+  }
+  #crsname{
+    font-size: 16px;
+  }
+  .gallery > img{
+    width: 75%;
+  }
+  .club{
+    width: 50%
+  }
+  .footnav{
+    padding: 50px;
+    font-size: 14px;
+    flex-direction: column;
+  }
+  .imgcontainer,.pastmenu{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+  }
+  #pastpoint{
+    text-align: center;
+  }
+  .pastmenu > ul, .pastmenu:last-child > ul{
+    justify-content: space-between;
+  }
+}
+@media(max-width:1000px){
+  .crsname{
+    font-size: 14px;
+  }
+  #about{
+    letter-spacing: 1px;
+  }
+  .grid{
+    grid-template-columns: 15% 70% 15%;
+  }
+}
