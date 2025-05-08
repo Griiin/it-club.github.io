@@ -14,7 +14,7 @@ fetch("data.xml")
     
         const div = document.createElement("div");
         div.classList.add("course");
-        div.innerHTML = `<a href="${courseLink}"><img width="100%" src="${imageLink}"><h2 id="crsname">${title}from xml</h2></a>`;
+        div.innerHTML = `<a href="${courseLink}"><img width="100%" src="${imageLink}"><h2 id="crsname">${title}</h2></a>`;
         list.appendChild(div);
       }
       // Далее работа как в примере выше
