@@ -190,6 +190,9 @@ p{
   font-family: "Formula";
 }
 @media(max-width:766px){
+  #crsname{
+    font-size: 35px;
+  }
   .imagecont{
     width: 100%;
   }
@@ -235,6 +238,9 @@ p{
   }
   .grid{
     grid-template-columns: 10% 80% 10%;
+  }
+  #crsname{
+    font-size: 25px;
   }
 }
 @media(max-width:400px){
