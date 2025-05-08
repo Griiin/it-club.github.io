@@ -1,0 +1,27 @@
+<courses>
+    <course>
+      <title>3D Графика</title>
+      <image>images/graphics-3d.svg</image>
+      <courseLink>3d.html</courseLink>
+    </course>
+    <course>
+      <title>Разработка на Unity3D</title>
+      <image>images/unity.svg</image>
+      <courseLink>unity.html</courseLink>
+    </course>
+    <course>
+      <title>C#</title>
+      <image>images/c-sharp.svg</image>
+      <courseLink>sharp.html</courseLink>
+    </course>
+    <course>
+      <title>Веб-Дизайн</title>
+      <image>images/web-design.svg</image>
+      <courseLink>web-des.html</courseLink>
+    </course>
+    <course>
+      <title>Python</title>
+      <image>images/python.svg</image>
+      <courseLink>python.html</courseLink>
+    </course>
+</courses>
