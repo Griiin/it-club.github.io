@@ -26,6 +26,7 @@ ol>li:last-child{
 }
 .pageLinks{
     transition: .25s;
+    color: white;
 }
 .pageLinks:visited{
     color: white;
