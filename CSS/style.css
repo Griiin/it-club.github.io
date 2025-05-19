@@ -460,12 +460,13 @@ header{
     justify-content: space-between;
   }
 }
-@media(max-width:1000px){
+@media(max-width:1200px){
   .crsname{
     font-size: 14px;
   }
   #about{
-    letter-spacing: 1px;
+    letter-spacing: 0.4px;
+    font-size: 20px;
   }
   .grid{
     grid-template-columns: 15% 70% 15%;
